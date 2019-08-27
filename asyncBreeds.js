@@ -18,4 +18,6 @@ let returnData = data => {
   return data;
 };
 
-breedDetailsFromFile("balinese", returnData);
+//breedDetailsFromFile("bombay", returnData);
+
+module.exports = breedDetailsFromFile;
